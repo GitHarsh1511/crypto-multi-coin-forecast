@@ -41,6 +41,7 @@ from src.lstm_model import (
 # --------------------------------------------------
 st.set_page_config(
     page_title="Time Series Analysis with Cryptocurrency",
+    page_icon="🪙",
     layout="wide",
     initial_sidebar_state="expanded"
 )
