@@ -659,8 +659,25 @@ elif page == "Forecasting Models":
 
     st.markdown("# Forecasting Models")
 
-    coin = st.selectbox("Select Cryptocurrency", coins)
-    df = preprocess_crypto_data(load_crypto_data(coin, "2016-01-01"))
+    # ---------------- COIN SELECTOR (RADIO BUTTONS) ----------------
+    coins = [
+        "BTC","ETH","BNB","ADA","SOL","XRP","DOGE","DOT",
+        "AVAX","MATIC","LTC","BCH","TRX","LINK","UNI"
+    ]
+
+    st.markdown("### 🪙 Select Cryptocurrency")
+
+    coin = st.radio(
+        label="",
+        options=coins,
+        horizontal=True
+    )
+
+    # ---------------- LOAD DATA ----------------
+    df = preprocess_crypto_data(
+        load_crypto_data(coin, "2016-01-01")
+    )
+
 
     # Helper function for consistent axis formatting
     def format_axes(fig, ax, title):
