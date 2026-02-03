@@ -3,9 +3,10 @@ pandas
 numpy
 matplotlib
 seaborn
+scikit-learn
 statsmodels
 prophet
 tensorflow
-scikit-learn
+yfinance
 mplfinance
 plotly
