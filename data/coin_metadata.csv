@@ -1,0 +1,16 @@
+symbol,name,launch_year,category
+BTC,Bitcoin,2009,Store of Value
+ETH,Ethereum,2015,Smart Contracts
+BNB,Binance Coin,2017,Exchange Token
+SOL,Solana,2020,High-speed Blockchain
+ADA,Cardano,2017,Research Blockchain
+XRP,Ripple,2012,Payments
+DOT,Polkadot,2020,Interoperability
+LTC,Litecoin,2011,Payments
+LINK,Chainlink,2017,Oracles
+AVAX,Avalanche,2020,DeFi
+MATIC,Polygon,2017,Layer 2
+DOGE,Dogecoin,2013,Meme Coin
+TRX,Tron,2017,DeFi / Content
+ATOM,Cosmos,2019,Interoperability
+NEAR,Near Protocol,2020,Web3
