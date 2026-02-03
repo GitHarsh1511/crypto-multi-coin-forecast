@@ -100,11 +100,3 @@ LTC, BCH, TRX, LINK, UNI
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-
-
-## ▶️ Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
->>>>>>> 5239711f0b34f08b4066444b2c0e2eb96b0dfed7
