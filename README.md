@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📈 Crypto Multi-Coin Forecasting Dashboard
 
 An interactive **Streamlit-based cryptocurrency forecasting dashboard** that analyzes and predicts prices for multiple cryptocurrencies using **ARIMA, SARIMA, Prophet, and LSTM models**.
