@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📈 Crypto Multi-Coin Forecasting Dashboard
 
 An interactive **Streamlit-based cryptocurrency forecasting dashboard** that analyzes and predicts prices for multiple cryptocurrencies using **ARIMA, SARIMA, Prophet, and LSTM models**.
@@ -99,3 +100,34 @@ LTC, BCH, TRX, LINK, UNI
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+=======
+# 📈 Crypto Multi-Coin Forecasting Dashboard
+
+An interactive Streamlit dashboard for cryptocurrency price analysis and forecasting.
+
+## 🚀 Features
+- Multi-coin support (BTC, ETH, BNB, ADA, etc.)
+- Exploratory Data Analysis (EDA)
+- Forecasting models:
+  - ARIMA
+  - SARIMA
+  - Prophet
+  - LSTM
+- 30-day future price forecasting
+- KPI & Executive overview
+- Clean custom Streamlit UI
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- Pandas, NumPy
+- Statsmodels
+- Prophet
+- TensorFlow (LSTM)
+- Matplotlib & Seaborn
+
+## ▶️ Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+>>>>>>> 5239711f0b34f08b4066444b2c0e2eb96b0dfed7
